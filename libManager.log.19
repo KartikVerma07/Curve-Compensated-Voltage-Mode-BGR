@@ -1,0 +1,249 @@
+\o Program:		@(#)$CDS: libManager version 6.1.8 - CAT37 03/12/2019 23:23 (sjfhw310) $
+\o Sub version:		sub-version  s021 
+\o Arguments:		-unmapped -mpssession virtuoso6669 -mpshost cluster13.lan.ece 
+\o Working Directory:	cluster13.lan.ece:/home/vkartik/ECE5404/ECE5404_FinalProject
+\o 64-bit offsets
+\o Qt version: 		5.9.1
+\o changeWorkingDir("/home/vkartik/ECE5404/ECE5404_FinalProject") unnecessary.
+\o ddSetForcedLib("") unnecessary.
+\o Log file is "/home/vkartik/ECE5404/ECE5404_FinalProject/libManager.log.19".
+\o Opening libManager window.
+\a nrSetWindowVisibility(cdsLibManager "show")
+\o MPS service: map window
+\o Library Manager customization server connected.
+\a nrSetCurrentWindow(cdsLibManager)
+\w Warning: The directory: '/home/zhenghh/GF018/DesignENV/VirtuosoOA/GF_IP' does not exist
+\w 	but was defined in libFile '/home/vkartik/ECE5404/ECE5404_FinalProject/cds.lib' for Lib 'GFIP'.
+\a nrResizeWindow(cdsLibManager list(0 28 1536 631))
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->libListBox->value = "ECE5404FinalProject"
+\a cdsLibManager->libLineEdit->value = "ECE5404FinalProject"
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->libListBox->value = nil
+\a nrListItemAction(cdsLibManager->libListBox "ECE5404FinalProject" 0)
+\a cdsLibManager->libListBox->value = "ECE5404FinalProject"
+\a cdsLibManager->libLineEdit->value = "ECE5404FinalProject"
+\a cdsLibManager->cellListBox->value = "VoltageModeBGR_OpAmp_pnp"
+\a cdsLibManager->cellLineEdit->value = "VoltageModeBGR_OpAmp_pnp"
+\a cdsLibManager->cellListBox->value = "CurveCompensation_BGR_OpAmp_pnp1"
+\a cdsLibManager->cellLineEdit->value = "CurveCompensation_BGR_OpAmp_pnp1"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->cellListBox 5 0)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\w Warning: The directory: '/home/zhenghh/GF018/DesignENV/VirtuosoOA/GF_IP' does not exist
+\w 	but was defined in libFile '/home/vkartik/ECE5404/ECE5404_FinalProject/cds.lib' for Lib 'GFIP'.
+\a cdsLibManager->libListBox->value = "ECE5404FinalProject"
+\a cdsLibManager->libLineEdit->value = "ECE5404FinalProject"
+\a cdsLibManager->cellListBox->value = "CurveCompensation_BGR_OpAmp_pnp1"
+\a cdsLibManager->cellLineEdit->value = "CurveCompensation_BGR_OpAmp_pnp1"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\w Warning: The directory: '/home/zhenghh/GF018/DesignENV/VirtuosoOA/GF_IP' does not exist
+\w 	but was defined in libFile '/home/vkartik/ECE5404/ECE5404_FinalProject/cds.lib' for Lib 'GFIP'.
+\a cdsLibManager->libListBox->value = "ECE5404FinalProject"
+\a cdsLibManager->libLineEdit->value = "ECE5404FinalProject"
+\a cdsLibManager->cellListBox->value = "CurveCompensation_BGR_OpAmp_pnp1"
+\a cdsLibManager->cellLineEdit->value = "CurveCompensation_BGR_OpAmp_pnp1"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "VoltageModeBGR_OpAmp_pnp_nwell_res"
+\a cdsLibManager->cellLineEdit->value = "VoltageModeBGR_OpAmp_pnp_nwell_res"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a lmgrLogShowPopup("mainListPopup1" 194 262 2 "VoltageModeBGR_OpAmp_pnp_nwell_res")
+\a cdsLibManager->copySimpleButton->value = t
+\a copyCellForm->SkipLibrariesEdit->value = "*"
+\a copyCellForm->SkipLibrariesEdit->value = "*"
+\a copyCellForm->CopyFromLibrary->value = "ECE5404FinalProject"
+\a copyCellForm->CopyToLibrary->value = "ECE5404FinalProject"
+\a copyCellForm->CopyFromCell->value = "VoltageModeBGR_OpAmp_pnp_nwell_res"
+\a copyCellForm->CopyToCell->value = "VoltageModeBGR_OpAmp_pnp_nwell_res"
+\a copyCellForm->ViewsToCopy->value = "layout schematic symbol"
+\a copyCellForm->SkipLibrariesEdit->value = ""
+\a copyCellForm->SkipLibrariesEdit->value = "ahdlLib analogLib avTech basic cdsDefTechLib chrt018IC chrt018IC_rf"
+\a nrSetWindowVisibility(copyCellForm "show")
+\a nrSetCurrentWindow(copyCellForm)
+\a nrResizeWindow(copyCellForm list(524 28 468 631))
+\a copyCellForm->CopyToCell->value = "VoltageModeBGR_OpAmp_pnp_npoly_res"
+\a copyCellForm->OK->value = t
+\o Beginning simple copy to library "ECE5404FinalProject".
+\o Processing files to be copied...
+\a nrSetWindowVisibility(workingDialogForm "show")
+\a nrSetCurrentWindow(workingDialogForm)
+\a nrResizeWindow(workingDialogForm list(622 237 273 133))
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(workingDialogForm)
+\a nrResizeWindow(copyCellForm list(524 -9 468 631))
+\a nrResizeWindow(workingDialogForm list(622 274 273 133))
+\a workingDialogForm->Close->value = t
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrResizeWindow(workingDialogForm list(622 237 273 133))
+\o Copy succeeded.
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->libListBox->value = "ECE5404FinalProject"
+\a cdsLibManager->libLineEdit->value = "ECE5404FinalProject"
+\a cdsLibManager->cellListBox->value = "VoltageModeBGR_OpAmp_pnp_nwell_res"
+\a cdsLibManager->cellLineEdit->value = "VoltageModeBGR_OpAmp_pnp_nwell_res"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a copyCellForm->SkipLibrariesEdit->value = "*"
+\a cdsLibManager->cellListBox->value = "VoltageModeBGR_OpAmp_pnp_npoly_res"
+\a cdsLibManager->cellLineEdit->value = "VoltageModeBGR_OpAmp_pnp_npoly_res"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellListBox->value = "VoltageModeBGR_OpAmp_pnp_nwell_res"
+\a cdsLibManager->cellLineEdit->value = "VoltageModeBGR_OpAmp_pnp_nwell_res"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellListBox->value = "VoltageModeBGR_OpAmp_pnp_npoly_res"
+\a cdsLibManager->cellLineEdit->value = "VoltageModeBGR_OpAmp_pnp_npoly_res"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellListBox->value = "VoltageModeBGR_OpAmp_pnp_npoly_res"
+\a cdsLibManager->cellLineEdit->value = "VoltageModeBGR_OpAmp_pnp_npoly_res"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->cellListBox 22 0)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\w Warning: The directory: '/home/zhenghh/GF018/DesignENV/VirtuosoOA/GF_IP' does not exist
+\w 	but was defined in libFile '/home/vkartik/ECE5404/ECE5404_FinalProject/cds.lib' for Lib 'GFIP'.
+\a cdsLibManager->libListBox->value = "ECE5404FinalProject"
+\a cdsLibManager->libLineEdit->value = "ECE5404FinalProject"
+\a cdsLibManager->cellListBox->value = "VoltageModeBGR_OpAmp_pnp_npoly_res"
+\a cdsLibManager->cellLineEdit->value = "VoltageModeBGR_OpAmp_pnp_npoly_res"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "VoltageModeBGR_OpAmp_pnp_TestCkt"
+\a cdsLibManager->cellLineEdit->value = "VoltageModeBGR_OpAmp_pnp_TestCkt"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellListBox->value = "VoltageModeBGR_OpAmp_pnp_nwell_res"
+\a cdsLibManager->cellLineEdit->value = "VoltageModeBGR_OpAmp_pnp_nwell_res"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->cellListBox 23 0)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\w Warning: The directory: '/home/zhenghh/GF018/DesignENV/VirtuosoOA/GF_IP' does not exist
+\w 	but was defined in libFile '/home/vkartik/ECE5404/ECE5404_FinalProject/cds.lib' for Lib 'GFIP'.
+\a cdsLibManager->libListBox->value = "ECE5404FinalProject"
+\a cdsLibManager->libLineEdit->value = "ECE5404FinalProject"
+\a cdsLibManager->cellListBox->value = "VoltageModeBGR_OpAmp_pnp_nwell_res"
+\a cdsLibManager->cellLineEdit->value = "VoltageModeBGR_OpAmp_pnp_nwell_res"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetWindowVisibility(cdsLibManager "hide")
+\a nrSetWindowVisibility(cdsLibManager "show")
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "CurveCompensation_BGR_OpAmp_pnp1"
+\a cdsLibManager->cellLineEdit->value = "CurveCompensation_BGR_OpAmp_pnp1"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellListBox->value = "CurveCompensation_BGR_OpAmp_pnp1"
+\a cdsLibManager->cellLineEdit->value = "CurveCompensation_BGR_OpAmp_pnp1"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->cellListBox 5 0)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\w Warning: The directory: '/home/zhenghh/GF018/DesignENV/VirtuosoOA/GF_IP' does not exist
+\w 	but was defined in libFile '/home/vkartik/ECE5404/ECE5404_FinalProject/cds.lib' for Lib 'GFIP'.
+\a cdsLibManager->libListBox->value = "ECE5404FinalProject"
+\a cdsLibManager->libLineEdit->value = "ECE5404FinalProject"
+\a cdsLibManager->cellListBox->value = "CurveCompensation_BGR_OpAmp_pnp1"
+\a cdsLibManager->cellLineEdit->value = "CurveCompensation_BGR_OpAmp_pnp1"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetWindowVisibility(cdsLibManager "hide")
+\a nrSetWindowVisibility(cdsLibManager "show")

@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      vkartik
+HostName                       cluster13.lan.ece
+ProcessIdentifier              2588
+ProcessCreationTime_UTC        1715031645
+ProcessCreationTime_Readable   Mon May  6 17:40:45 2024 EDT
+AppIdentifier                  OA File System Design Manager
+OSType                         unix
+ReasonForPlacingEditLock       OpenAccess edit lock
+FilePathUsedToEditLock         /home/vkartik/ECE5404/ECE5404_FinalProject/ECE5404FinalProject/CurveCompCkt/schematic/sch.oa.cdslck
+TimeEditLocked                 Tue May  7 23:33:31 2024 EDT

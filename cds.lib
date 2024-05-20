@@ -1,0 +1,19 @@
+# File Created by Kang Jun Bai,(415) 846-6050,, at Tue Oct  3 15:10:03 2017
+# assisted by CdsLibEditor
+
+# Basic Libraries
+DEFINE basic $CDSHOME/tools/dfII/etc/cdslib/basic 
+DEFINE analogLib $CDSHOME/tools/dfII/etc/cdslib/artist/analogLib
+DEFINE ahdlLib $CDSHOME/tools/dfII/samples/artist/ahdlLib
+DEFINE avTech /software/cadence/installs/ASSURA41_616/tools.lnx86/assura/etc/avtech/avTech
+
+# CMOS Transistors
+DEFINE chrt018IC  /home/zhenghh/GF018/DesignEnv/VirtuosoOA/chrt018IC
+DEFINE chrt018IC_rf  /home/zhenghh/GF018/DesignEnv/VirtuosoOA/chrt018IC_rf
+
+# Bonding Pads
+DEFINE GFIP /home/zhenghh/GF018/DesignENV/VirtuosoOA/GF_IP
+
+
+
+DEFINE ECE5404FinalProject /home/vkartik/ECE5404/ECE5404_FinalProject/ECE5404FinalProject
