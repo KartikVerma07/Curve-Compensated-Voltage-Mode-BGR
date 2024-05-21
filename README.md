@@ -29,12 +29,22 @@ folded current mirror, two-stage operational amplifier, and various compensation
 
 3. **Curve Compensation Techniques:**
    - *Temperature Dependent Resistor Ratio Technique:*
+     - Reference to the Paper: [A_2-V_23-A_5.3-ppm_C_curvature-compensated_CMOS_bandgap_voltage_reference.pdf](https://github.com/KartikVerma07/Curve-Compensated-Voltage-Mode-BGR/files/15395097/A_2-V_23-A_5.3-ppm_C_curvature-compensated_CMOS_bandgap_voltage_reference.pdf)
      - R4(27℃) = R2(27℃) + R3(27℃)
      - Schematic 
      ![CC_2 0](https://github.com/KartikVerma07/Curve-Compensated-Voltage-Mode-BGR/assets/60437757/b73f9759-409d-41b3-8d39-e04a81020d28)
 
+
    - *Curvature Up & Down Cancellation:*
+     - Reference to the Paper: [New_Curvature-Compensation_Technique_for_CMOS_Bandgap_Reference_With_Sub-1-V_Operation.pdf](https://github.com/KartikVerma07/Curve-Compensated-Voltage-Mode-BGR/files/15395116/New_Curvature-Compensation_Technique_for_CMOS_Bandgap_Reference_With_Sub-1-V_Operation.pdf)
      - Schematic 
      ![CC2_schematic+tb(subtract)](https://github.com/KartikVerma07/Curve-Compensated-Voltage-Mode-BGR/assets/60437757/9d7d5fd3-cd50-45be-a74a-638bba56f660)
 
+## Usage
+This repository provides schematics and test results for the design and implementation of voltage mode BGR and associated curve compensation techniques. The provided figures and descriptions will help users understand the functionality and performance of each component. To use these designs in your projects, refer to the provided schematics and adjust the parameters as needed for your specific requirements.
+
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+For further information, refer to the detailed descriptions and schematics provided in the repository. If you have any questions or need assistance, feel free to open an issue or contact me at vkartik764@gmail.com
     
